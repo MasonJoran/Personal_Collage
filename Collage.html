@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		Collage
+	</title>
+<style type="text/css">
+
+	* {box-sizing: border-box;
+		
+	}
+
+	html, body {
+	margin: 0;
+	padding: 0;
+	}
+
+	div {
+	min-height: 40px;
+	min-width: 40px;
+	}
+
+	#container {
+		height: 100vh;
+		width: 100vw;
+		display: grid;
+		grid-template-columns: 2fr 3fr 2fr 3fr;
+		grid-template-rows: 4fr 4fr 4fr;
+		grid-template-areas: 
+			"A A B B"
+			"C C C C"
+			"D D E E";
+	}
+
+	#img1 {
+		grid-area: A;
+		background-image: url(https://i.ytimg.com/vi/QbeBhdjW1_w/maxresdefault.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center;
+
+	}
+
+	#img2 {
+		grid-area: B;
+		background-image: url(https://i.pinimg.com/236x/99/30/a9/9930a90887e97181204dc2e4e8416848.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center;
+
+	}
+
+	#img3 {
+		grid-area: C;
+		background-image: url(https://pbs.twimg.com/media/C10VxkEUcAE2-zu.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center;
+		
+	}
+
+	
+	#img4 {
+		grid-area: D;
+		background-image: url(https://i.pinimg.com/236x/c1/f5/c4/c1f5c44722f1f0b9db9f878b5e21f961.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center;
+			}
+
+	#img5 {
+		grid-area: E;
+		background-image: url(https://i.kym-cdn.com/photos/images/original/001/289/412/792.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center;
+	}
+
+	.pictures {
+		border: 2px solid skyblue;
+		
+	}
+
+	
+</style>
+
+
+</head>
+
+
+<body>
+
+<div id="container">
+		<div id="img1" class="pictures">
+
+			
+		</div>
+		
+		<div id="img2" class="pictures">
+			B
+			<img src="">
+		</div>
+		
+		<div id="img3" class="pictures">
+			
+			
+		</div>
+		
+		<div id="img4" class="pictures">
+			D
+			<img src="">
+		</div>
+
+		<div id="img5" class="pictures">
+			E
+			<img src="">
+		</div>
+		
+
+</div>
+
+</body>
+</html>
